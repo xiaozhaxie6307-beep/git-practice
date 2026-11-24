@@ -71,7 +71,7 @@ def main():
                 record["id"] = new_record_id(used_ids)
                 records.append(record)
                 save_records(records)
-                print("添加成功。")
+                print(f"添加成功，记录 ID：{record['id']}。")
             elif choice == "2":
                 show_records(records)
             elif choice == "3":
